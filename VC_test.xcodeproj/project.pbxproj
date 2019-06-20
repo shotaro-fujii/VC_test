@@ -12,6 +12,7 @@
 		E2F909A722BB2A7D0037B7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F909A522BB2A7D0037B7DB /* Main.storyboard */; };
 		E2F909A922BB2A7F0037B7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F909A822BB2A7F0037B7DB /* Assets.xcassets */; };
 		E2F909AC22BB2A7F0037B7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F909AA22BB2A7F0037B7DB /* LaunchScreen.storyboard */; };
+		E2F909B422BB3EF80037B7DB /* VC_A_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F909B322BB3EF80037B7DB /* VC_A_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E2F909A822BB2A7F0037B7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F909AB22BB2A7F0037B7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2F909AD22BB2A7F0037B7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F909B322BB3EF80037B7DB /* VC_A_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_A_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E2F909A122BB2A7D0037B7DB /* AppDelegate.swift */,
 				E2F909A322BB2A7D0037B7DB /* ViewController.swift */,
+				E2F909B322BB3EF80037B7DB /* VC_A_ViewController.swift */,
 				E2F909A522BB2A7D0037B7DB /* Main.storyboard */,
 				E2F909A822BB2A7F0037B7DB /* Assets.xcassets */,
 				E2F909AA22BB2A7F0037B7DB /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F909A422BB2A7D0037B7DB /* ViewController.swift in Sources */,
+				E2F909B422BB3EF80037B7DB /* VC_A_ViewController.swift in Sources */,
 				E2F909A222BB2A7D0037B7DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
