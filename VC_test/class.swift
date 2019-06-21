@@ -13,8 +13,9 @@ import Foundation
 
 class DataClass {
     
-    //定数の定義
-    let str1 = ""
-    let str2 = ""
+    var str1 = ""
+    var str2 = ""
+    var str3 = ""
+    
     
 }

@@ -29,8 +29,8 @@ class startViewController: UIViewController {
         let storyboard: UIStoryboard = self.storyboard!
         
         // ②遷移先ViewControllerのインスタンス取得
-        //let nextView = storyboard.instantiateViewController(withIdentifier: "VC_A") as! VC_A_ViewController
-        let nextView = storyboard.instantiateViewController(withIdentifier: "main") as! startViewController
+        let nextView = storyboard.instantiateViewController(withIdentifier: "VC_A") as! VC_A_ViewController
+        //let nextView = storyboard.instantiateViewController(withIdentifier: "main") as! startViewController
         
         
         // ★画面遷移アニメーションの指定
@@ -39,7 +39,8 @@ class startViewController: UIViewController {
         nextView.modalTransitionStyle = .crossDissolve
         //nextView.modalTransitionStyle = .partialCurl
         
-        nextView.str = "遷移しました"
+        //nextView.str = "遷移しました"
+        
         // ③画面遷移
         self.present(nextView, animated: true, completion: nil)
 

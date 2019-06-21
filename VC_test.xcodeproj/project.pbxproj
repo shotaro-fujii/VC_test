@@ -15,6 +15,7 @@
 		E2F909AC22BB2A7F0037B7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F909AA22BB2A7F0037B7DB /* LaunchScreen.storyboard */; };
 		E2F909B422BB3EF80037B7DB /* VC_A_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F909B322BB3EF80037B7DB /* VC_A_ViewController.swift */; };
 		E2FE369122BC61AD0033123C /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE369022BC61AD0033123C /* class.swift */; };
+		E2FE369522BC740C0033123C /* VC_B_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE369422BC740C0033123C /* VC_B_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E2F909AD22BB2A7F0037B7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2F909B322BB3EF80037B7DB /* VC_A_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_A_ViewController.swift; sourceTree = "<group>"; };
 		E2FE369022BC61AD0033123C /* class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
+		E2FE369422BC740C0033123C /* VC_B_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_B_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				E2F909A322BB2A7D0037B7DB /* startViewController.swift */,
 				E26BD28922BB7E1800102ACB /* BaseViewController.swift */,
 				E2F909B322BB3EF80037B7DB /* VC_A_ViewController.swift */,
+				E2FE369422BC740C0033123C /* VC_B_ViewController.swift */,
 				E2F909A522BB2A7D0037B7DB /* Main.storyboard */,
 				E2F909A822BB2A7F0037B7DB /* Assets.xcassets */,
 				E2F909AA22BB2A7F0037B7DB /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2FE369522BC740C0033123C /* VC_B_ViewController.swift in Sources */,
 				E2F909A422BB2A7D0037B7DB /* startViewController.swift in Sources */,
 				E26BD28A22BB7E1800102ACB /* BaseViewController.swift in Sources */,
 				E2FE369122BC61AD0033123C /* class.swift in Sources */,
